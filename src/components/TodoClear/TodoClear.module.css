@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.status {
+    width: 29%;
+    height: 28px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.deleteBtn {
+    width: 29%;
+    height: 30px;
+    background-color: #59a3c8;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.deleteBtn:active {
+    background-color: #44758d;
+}
+
+.deleteAll {
+    width: 29%;
+    height: 30px;
+    cursor: pointer;
+    background-color: #973232;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.deleteAll:active {
+    background-color: #5d1e1e;
+}

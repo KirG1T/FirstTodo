@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    background-color: #d7ecfa;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #234252;
+}
+
+.inputCheckTrue {
+    text-decoration: line-through solid #234252;
+    background-color: #eceef0;
+}
+
+.input input:first-child {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.input input {
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons img {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.buttons img:first-child {
+    margin-right: 10px;
+}
