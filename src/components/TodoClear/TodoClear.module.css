@@ -1,40 +1,85 @@
 .container {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    align-items: center;
+    margin-top: 25px;
     margin-bottom: 5px;
 }
 
 .status {
-    width: 29%;
+    width: 30%;
     height: 28px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
     text-align: center;
 }
 
 .deleteBtn {
-    width: 29%;
-    height: 30px;
+    width: 30%;
+    min-height: 30px;
     background-color: #59a3c8;
     color: white;
     font-size: 15px;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
+    font-family: inherit;
 }
+
+.deleteBtn:hover {
+    background-color: #427995;
+}
+
 .deleteBtn:active {
+    background-color: #2a4a5a;
+}
+
+.deleteBtnBlock {
     background-color: #44758d;
 }
 
+.deleteBtnDisabled {
+    width: 30%;
+    min-height: 30px;
+    background-color: #9c9c9c;
+    color: rgb(231, 230, 230);
+    font-size: 15px;
+    border: none;
+    font-family: inherit;
+    border-radius: 10px;
+}
+
 .deleteAll {
-    width: 29%;
+    width: 30%;
     height: 30px;
     cursor: pointer;
-    background-color: #973232;
+    background-color: #d41818;
     border: none;
     color: white;
     font-size: 15px;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+.deleteAll:hover {
+    background-color: #982424;
 }
 
 .deleteAll:active {
+    background-color: #760e0e;
+}
+
+.deleteAllBlock {
     background-color: #5d1e1e;
+    color: rgb(205, 203, 203);
+}
+
+.deleteAllDisabled {
+    width: 30%;
+    height: 30px;
+    border: none;
+    background-color: #9c9c9c;
+    color: rgb(231, 230, 230);
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: inherit;
 }

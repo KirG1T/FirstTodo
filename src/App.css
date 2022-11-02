@@ -1,21 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;600;700&display=swap');
+
 html,
 body {
-    background-color: #489cc1;
+    background-color: #97cae0;
     /* width: 100%;
     height: 100%; */
     box-sizing: border-box;
+    font-family: 'Noto Sans Display', sans-serif;
 }
 
 .App {
     background-color: #fcfcfc;
-    width: 490px;
+    margin: 0 15px;
+    padding: 5px 25px 10px 25px;
+    border-radius: 20px;
+    /* box-shadow: 7px 7px 2px 0px rgba(50, 50, 50, 0.75); */
+    box-shadow: 5px 5px 5px rgb(50 50 50 / 28%);
+}
+
+.wrapper {
+    max-width: 550px;
     margin: 40px auto;
-    padding: 5px 30px 10px 30px;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    /* -webkit-text-stroke: 1px #6296c8; */
+    color: #172d38;
 }
 
 .plug {
     text-align: center;
-    font-size: 25px;
-    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
     color: #172d38;
+}
+
+/* .todo-enter {
+    opacity: 0;
+}
+.todo-enter-active {
+    transform: translateY(-120px);
+    transition: transform 0.5s ease-in;
+}
+.todo-exit {
+    opacity: 1;
+}
+.todo-exit-active {
+    transform: translateY(120px);
+    transition: transform 0.5s ease-in;
+} */
+
+.todo-enter {
+    transform: translateY(-15px);
+}
+.todo-enter-active {
+    transform: translateY(0px);
+    transition: all 400ms ease-in;
+}
+.todo-exit {
+    opacity: 1;
+}
+.todo-exit-active {
+    opacity: 0;
+    transition: all 300ms ease-in;
 }
